@@ -14810,7 +14810,7 @@
                 }()),
                 e.slot.setTargeting("ad_h", (new Date).getUTCHours().toString()),
                 googletag.display(t),
-                //s || e.refresh(),
+                s || e.refresh(),
                 u && window.googletag.pubads().addEventListener("slotRenderEnded", function(t) {
                     t.isEmpty && (document.getElementById(t.slot.getSlotElementId()).parentNode.classList.remove("display-block"),
                     e.showPlaceholder = !0)
