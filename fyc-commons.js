@@ -23797,7 +23797,7 @@
             var e = this;
             window.googletag.cmd.push(function() {
                 e.props.pageLevelTargeting && e.getPageLevelTargeting(e.props.pageLevelTargeting),
-                window.googletag.pubads().disableInitialLoad(),
+                //window.googletag.pubads().disableInitialLoad(),
                 window.googletag.pubads().enableAsyncRendering(),
                 window.googletag.pubads().enableSingleRequest(),
                 window.googletag.pubads().collapseEmptyDivs(),
