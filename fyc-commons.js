@@ -23806,7 +23806,7 @@
                 window.googletag.pubads().enableSingleRequest(),
                 console.log('window.googletag.pubads().collapseEmptyDivs()')
                 window.googletag.pubads().collapseEmptyDivs(),
-                console.log('window.googletag.enableServices()')
+                console.log('window.googletag.enableServices()'),
                 window.googletag.enableServices()
             }),
             window.pbjs.que.push(function() {
