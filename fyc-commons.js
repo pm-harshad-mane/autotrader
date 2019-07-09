@@ -14809,7 +14809,7 @@
                     }
                 }()),
                 e.slot.setTargeting("ad_h", (new Date).getUTCHours().toString()),
-                console.log('googletag.display('+t+'),')
+                console.log('googletag.display('+t+'),'),
                 googletag.display(t),
                 u && window.googletag.pubads().addEventListener("slotRenderEnded", function(t) {
                     t.isEmpty && (document.getElementById(t.slot.getSlotElementId()).parentNode.classList.remove("display-block"),
@@ -23802,7 +23802,7 @@
                 window.googletag.pubads().disableInitialLoad(),
                 console.log('window.googletag.pubads().enableAsyncRendering()'),
                 window.googletag.pubads().enableAsyncRendering(),
-                consoel.log('window.googletag.pubads().enableSingleRequest()'),
+                consoel.log('window.googletag.pubads().enableSingleRequest()'), 
                 window.googletag.pubads().enableSingleRequest(),
                 console.log('window.googletag.pubads().collapseEmptyDivs()'),
                 window.googletag.pubads().collapseEmptyDivs(),
