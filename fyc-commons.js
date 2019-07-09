@@ -23802,7 +23802,7 @@
                 window.googletag.pubads().disableInitialLoad(),
                 console.log('window.googletag.pubads().enableAsyncRendering()'),
                 window.googletag.pubads().enableAsyncRendering(),
-                consoel.log('window.googletag.pubads().enableSingleRequest()'), 
+                console.log('window.googletag.pubads().enableSingleRequest()'), 
                 window.googletag.pubads().enableSingleRequest(),
                 console.log('window.googletag.pubads().collapseEmptyDivs()'),
                 window.googletag.pubads().collapseEmptyDivs(),
