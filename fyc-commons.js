@@ -14790,7 +14790,7 @@
                     i = i.build(),
                     e.slot = googletag.defineSlot(c, n, t).defineSizeMapping(i).addService(googletag.pubads())
                 } else
-                    e.slot = a ? googletag.defineOutOfPageSlot(c, t).addService(googletag.pubads()) : googletag.defineSlot(c, l, t).addService(googletag.pubads());
+                    console.log(l), e.slot = a ? googletag.defineOutOfPageSlot(c, t).addService(googletag.pubads()) : googletag.defineSlot(c, l, t).addService(googletag.pubads());
                 o && Object.entries(o).forEach(function(t) {
                     var n = v()(t, 2)
                       , r = n[0]
