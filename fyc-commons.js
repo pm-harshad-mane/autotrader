@@ -23798,8 +23798,8 @@
             var e = this;
             window.googletag.cmd.push(function() {
                 e.props.pageLevelTargeting && e.getPageLevelTargeting(e.props.pageLevelTargeting),
-                console.log('window.googletag.pubads().disableInitialLoad()'),
-                window.googletag.pubads().disableInitialLoad(),
+                //console.log('window.googletag.pubads().disableInitialLoad()'),
+                //window.googletag.pubads().disableInitialLoad(),
                 console.log('window.googletag.pubads().enableAsyncRendering()'),
                 window.googletag.pubads().enableAsyncRendering(),
                 console.log('window.googletag.pubads().enableSingleRequest()'), 
